@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 import json 
-
+import supabase
 from supabase import create_client, Client
 
 st.title("Anonymous Test")   
